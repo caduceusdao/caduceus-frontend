@@ -1,0 +1,17 @@
+.chart-card-header {
+  margin-bottom: 20px;
+  .card-title-text {
+    overflow: hidden;
+    font-weight: 400;
+    white-space: nowrap;
+    width: auto;
+    text-overflow: ellipsis;
+  }
+}
+.ohm-chart {
+  .recharts-wrapper .recharts-cartesian-grid-vertical line:last-child,
+  .recharts-wrapper .recharts-cartesian-grid-horizontal line:last-child,
+  .recharts-wrapper .recharts-cartesian-grid-horizontal line:first-child {
+    stroke-opacity: 0;
+  }
+}
